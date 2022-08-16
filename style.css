@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#gameContainer {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  background-color: gray;
+  margin: 80px auto;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.gameText {
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.BtnContainer{
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.choiceBtn{
+  cursor: pointer;
+  color: black;
+  border-style: none;
+  border-radius: 5px;
+  margin: 0 20px 0 20px;
+  width: 80px;
+  height: 40px;
+  background-color: darkgray;
+  transition: 1s;
+}
+
+.choiceBtn:hover {
+  background-color: black;
+  color: white;
+}
